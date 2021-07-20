@@ -1,0 +1,204 @@
+:root {
+  --background-color: #e5e5e5;
+  --primary-color: #212121;
+  --secondary-color: #ffffff;
+  --accent-color: #2196f3;
+  --text-color: #757575;
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  letter-spacing: 0.03em;
+  color: var(--primary-color);
+}
+
+.list {
+    list-style-type: none;
+}
+
+.list a {
+    text-decoration: none;
+    }
+/*Шапка сайту*/
+
+.header-section {
+    background: var(--secondary-color);
+}
+
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.20;
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.logo-item-black {
+  color: #000000;
+}
+
+.logo-item-white {
+  color: var(--secondary-color);
+}
+
+.nav-link a{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.nav-link-black {
+    color: inherit;
+}
+
+.nav-link-grey {
+   color: var(--text-color); 
+  }
+
+.nav-link-black:hover,
+.nav-link-black:focus,
+.nav-link-grey:hover,
+.nav-link-grey:focus,
+.current-link {
+    color: var(--accent-color);
+}
+
+.second-section,
+.third-section,
+.team {
+    background-color: #F5F4FA;
+}
+/*Секція з головним заголовком*/
+.first-section {
+    background-color: #2F303A;
+}
+
+.first-section > h1 {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1,36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--secondary-color);
+}
+
+.button-primary {
+    background-color: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1,88;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color:var(--secondary-color);
+    cursor: pointer;
+}
+
+/*Секція "Наши преимущества", "Чем мы занимаемся" */
+.second-section > h2,
+.third-section > h2,
+.team-section > h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    color: inherit;
+}
+
+.features-title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: inherit;
+}
+
+.features-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--text-color);
+}
+
+/*Секція "Наша команда"*/
+
+.team > li {
+    background-color: var(--secondary-color);
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+
+.team-list h3 {
+    font-weight: 500;
+    color: inherit;
+}
+
+.team-list p {
+    font-weight: normal;
+    color: var(--text-color);
+    }
+
+
+/*Сторінка портфоліо*/
+
+
+.button-secondary {
+    background-color: #F5F4FA;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    color: inherit;
+    cursor: pointer;
+}
+
+.button-secondary:hover,
+.button-secondary:focus {
+    background-color: var(--accent-color);
+    color: var(--secondary-color)
+}
+
+
+.filter > li {
+    background-color: var(--secondary-color);
+}
+
+.filter h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-color);;
+}
+
+.filter p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--text-color);
+}
+
+/*Футер*/
+.footer-section {
+    background-color: #2F303A;
+}
+.address > li {
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+}
+.address-place {
+   color: var(--secondary-color);
+   font-style: normal;
+}
+.address a {
+   color: rgba(255, 255, 255, 0.6);
+}
